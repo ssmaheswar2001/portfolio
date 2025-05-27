@@ -1,0 +1,92 @@
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import { FaLinkedin, FaGithub, FaEye } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
+
+const AboutMe = () => {
+  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE_3yoe.pdf';
+  const profilePic = process.env.PUBLIC_URL + '/profile.jpeg'; // Add a profile.jpg in /public
+
+  return (
+    <Container className="py-5">
+      <Row className="align-items-center">
+        <Col md={4} className="text-center mb-4 mb-md-0">
+          <img
+            src={profilePic}
+            alt="Surya Sai Maheswar"
+            className="img-fluid rounded-circle shadow"
+            style={{ width: '350px', height: '350px', objectFit: 'cover' }}
+          />
+        </Col>
+
+        <Col md={8}>
+          <h1 className="fw-bold mb-3">I'm Surya Sai Maheswar Budidi</h1>
+          <p className="lead">
+            A passionate Computer Science professional with a Master's from the University of Alabama at Birmingham and a Bachelor's from JNTU Kakinada.
+            I have 3 years of experience in software engineering, data engineering, and AI/ML — specializing in building scalable data pipelines and AI-powered solutions.
+            Outside of work, I contribute to open-source and explore innovations in AI & Cloud.
+          </p>
+          <p className="lead mb-1">
+            Let’s connect for discussions, collaborations, or opportunities!
+          </p>
+          <p className="lead">
+            Email: <a href="mailto:ssmaheswar2001@gmail.com">ssmaheswar2001@gmail.com</a>
+          </p>
+
+          <a
+            href={resumePath}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-primary me-3 mb-3"
+          >
+            <FaEye size={18} className="me-2" />
+            View Resume
+          </a>
+        </Col>
+      </Row>
+
+      <Row className="justify-content-center mt-2 g-2">
+        <Col xs="auto">
+          <a
+            href="https://www.linkedin.com/in/ssmaheswar/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="d-flex align-items-center text-decoration-none"
+            style={{ color: '#0077B5' }}
+          >
+            <FaLinkedin size={28} className="me-2" />
+            <span className="fw-bold">LinkedIn</span>
+          </a>
+        </Col>
+
+        <Col xs="auto">
+          <a
+            href="https://github.com/ssmaheswar2001"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="d-flex align-items-center text-decoration-none"
+            style={{ color: '#000' }}
+          >
+            <FaGithub size={28} className="me-2" />
+            <span className="fw-bold">GitHub</span>
+          </a>
+        </Col>
+
+        <Col xs="auto">
+          <a
+            href="https://leetcode.com/u/ssmaheswar2001/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="d-flex align-items-center text-decoration-none"
+            style={{ color: '#FFA116' }}
+          >
+            <SiLeetcode size={28} className="me-2" />
+            <span className="fw-bold">LeetCode</span>
+          </a>
+        </Col>
+      </Row>
+    </Container>
+  );
+};
+
+export default AboutMe;
