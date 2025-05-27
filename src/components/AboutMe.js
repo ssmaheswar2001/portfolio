@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEye } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 
 const AboutMe = () => {
-  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE_3yoe.pdf';
+  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE_3YOE.pdf';
   const profilePic = process.env.PUBLIC_URL + '/profile.jpeg'; // Add a profile.jpg in /public
 
   return (
