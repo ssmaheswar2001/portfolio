@@ -22,7 +22,7 @@ const AboutMe = () => {
         <Col md={8}>
           <h1 className="fw-bold mb-3">I'm Surya Sai Maheswar Budidi</h1>
           <p className="lead">
-            A passionate Computer Science professional with a Master's from the University of Alabama at Birmingham and a Bachelor's from JNTU Kakinada.
+            A passionate Computer Science professional with a Master's degree from the University of Alabama at Birmingham and a Bachelor's degree from JNTU Kakinada.
             I have 3 years of experience in software engineering, data engineering, and AI/ML — specializing in building scalable data pipelines and AI-powered solutions.
             Outside of work, I contribute to open-source and explore innovations in AI & Cloud.
           </p>
