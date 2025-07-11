@@ -4,22 +4,22 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
-      title: "SQL Query Assisant (Yet to Complete)",
+      title: "Attendance Management system using Computer Vison & RAG Chatbot",
+      description: "Developed a Face recognition attendance management system using YOLOv7 withh FastAPI, React and MongoDB.",
+      tech: ["Python", "YOLO", "FastAPI", "React", "AWS"],
+      github: "https://github.com/ssmaheswar2001/Attendance-Management-System.git"
+    },
+    {
+      title: "SQL Query Assistant (In Progress)",
       description: "Designing a Text-to-SQL assisant that translates natural language questions into SQL queries using Transformer models. Trained on the WikiSQL and Spider datasets.",
       tech: ["Python", "Tensorflow", "React", "AWS"],
       github: ""
     },
     {
-      title: "English-2-Indian Transliteration using RNNs",
+      title: "English-to-Indian Transliteration using RNNs",
       description: "Built a English language to Indian language Transliteration using RNNs, Bi-RNN + LSM and Transformer.",
       tech: ["Python", "Tensorflow", "GCP"],
       github: "https://github.com/ssmaheswar2001/Machine-Translation.git"
-    },
-    {
-      title: "AI-Power Attendance Management system",
-      description: "Developed a Face recognition attedance management system using YOLOv7 withh FastAPI, React and MongoDB.",
-      tech: ["Python", "YOLO", "FastAPI", "React", "AWS"],
-      github: "https://github.com/ssmaheswar2001/AI-Powered-Attendance-Management-System.git"
     },
     {
       title: "MLOps Hand Sign Detection System using YOLO",
