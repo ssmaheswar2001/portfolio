@@ -20,19 +20,18 @@ function App() {
      <div className={darkMode ? 'bg-dark text-light' : 'bg-light text-dark'}>
       <Navbar toggleTheme={toggleTheme} darkMode={darkMode} />
       <div className="container mt-5">
-        <section id="about"><AboutMe /></section>
-        <section id="education"><Education /></section>
-        <section id="experience"><Experience /></section>
-        <section id="skills"><SkillSet /></section>
-        <section id="projects"><Projects /></section>
-        <section id="certifications"><Certifications /></section>
-        <section id="resume"><Resume /></section>
-        <p>© 2025 Surya Sai Maheswar Budidi. All rights reserved.</p>
+        <section id="about" className="py-5"><AboutMe /></section>
+        <section id="education" className="py-5"><Education /></section>
+        <section id="experience" className="py-5"><Experience /></section>
+        <section id="skills" className="py-5"><SkillSet /></section>
+        <section id="projects" className="py-5"><Projects /></section>
+        <section id="certifications" className="py-5"><Certifications /></section>
+        <section id="resume" className="py-5"><Resume /></section>
+        <footer className="text-center py-4 mt-5">
+          <p className="mb-0">© 2025 Surya Sai Maheswar Budidi. All rights reserved.</p>
+        </footer>
+              </div>
       </div>
-      <footer>
-        
-      </footer>
-    </div>
     </>
   );
 }

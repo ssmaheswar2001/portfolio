@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: linear-gradient(135deg, #f7f8fc 0%, #e1eaff 100%);
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -24,6 +28,13 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+  color: #007bff !important;
+  transform: scale(1.05);
+  transition: all 0.2s ease;
 }
 
 .btn {

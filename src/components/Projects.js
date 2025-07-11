@@ -4,14 +4,14 @@ import { FaGithub } from 'react-icons/fa';
 const Projects = () => {
   const projects = [
     {
-      title: "Attendance Management system using Computer Vison & RAG Chatbot",
-      description: "Developed a Face recognition attendance management system using YOLOv7 withh FastAPI, React and MongoDB.",
+      title: "Attendance Management System using Computer Vision & RAG Chatbot",
+      description: "Developed a Face recognition attendance management system using YOLOv7 with FastAPI, React and MongoDB.",
       tech: ["Python", "YOLO", "FastAPI", "React", "AWS"],
       github: "https://github.com/ssmaheswar2001/Attendance-Management-System.git"
     },
     {
       title: "SQL Query Assistant (In Progress)",
-      description: "Designing a Text-to-SQL assisant that translates natural language questions into SQL queries using Transformer models. Trained on the WikiSQL and Spider datasets.",
+      description: "Designing a Text-to-SQL assistant that translates natural language questions into SQL queries using Transformer models. Trained on the WikiSQL and Spider datasets.",
       tech: ["Python", "Tensorflow", "React", "AWS"],
       github: ""
     },
@@ -29,14 +29,14 @@ const Projects = () => {
     },
     {
       title: "Uber Trip Analysis using Power BI",
-      description: "A Interactive Dashboard that analyszed uber trip data to provide insights into booking patterns, revenue trens, trip efficiency, and customer behavior.",
-      tech: ["Powr BI"],
+      description: "An Interactive Dashboard that analyzed uber trip data to provide insights into booking patterns, revenue trends, trip efficiency, and customer behavior.",
+      tech: ["Power BI"],
       github: "https://github.com/ssmaheswar2001/Uber-Analysis.git"
     },
     {
       title: "Note Taker Application",
       description: "Developed a Note Taker application which performs CRUD operations using Java, MySQL, Hibernate, JSP, Servlets, HTML and Bootstrap.",
-      tech: ["Java", "MySQL", "Hibernate", "Servelts", "JSP", "HTML", "CSS", "Bootstrap"],
+      tech: ["Java", "MySQL", "Hibernate", "Servlets", "JSP", "HTML", "CSS", "Bootstrap"],
       github: "https://github.com/ssmaheswar2001/NoteTaker/tree/master"
     }
 
@@ -58,14 +58,18 @@ const Projects = () => {
                 <span key={i} className="badge bg-secondary me-2 mb-2">{tech}</span>
               ))}
             </div>
-            <a
-              href={proj.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-outline-dark btn-sm"
-            >
-              <FaGithub className="me-1" /> View on GitHub
-            </a>
+            {proj.github ? (
+              <a
+                href={proj.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-dark btn-sm"
+              >
+                <FaGithub className="me-1" /> View on GitHub
+              </a>
+            ) : (
+              <span className="text-muted small">Coming Soon</span>
+            )}
           </div>
         </div>
         </div>
