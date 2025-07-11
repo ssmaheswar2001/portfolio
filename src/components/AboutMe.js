@@ -4,7 +4,7 @@ import { FaLinkedin, FaGithub, FaEye } from 'react-icons/fa';
 import { SiLeetcode } from 'react-icons/si';
 
 const AboutMe = () => {
-  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE_3YOE.pdf';
+  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE.pdf';
   const profilePic = process.env.PUBLIC_URL + '/profile.jpeg'; // Add a profile.jpg in /public
 
   return (
@@ -20,7 +20,7 @@ const AboutMe = () => {
         </Col>
 
         <Col md={8}>
-          <h1 className="fw-bold mb-3">I'm Surya Sai Maheswar Budidi</h1>
+          <h1 className="fw-bold mb-3">I'm Surya Sai Maheswar B</h1>
           <p className="lead">
             A passionate Computer Science professional with a Master's degree from the University of Alabama at Birmingham and a Bachelor's degree from JNTU Kakinada.
             I have 3 years of experience in software engineering, data engineering, and AI/ML — specializing in building scalable data pipelines and AI-powered solutions.
@@ -30,7 +30,7 @@ const AboutMe = () => {
             Let’s connect for discussions, collaborations, or opportunities!
           </p>
           <p className="lead">
-            Email: <a href="mailto:ssmaheswar2001@gmail.com">ssmaheswar2001@gmail.com</a>
+            Email: <a href="mailto:suryasmb.2001@gmail.com">suryasmb.2001@gmail.com</a>
           </p>
 
           <a
@@ -48,7 +48,7 @@ const AboutMe = () => {
       <Row className="justify-content-center mt-2 g-2">
         <Col xs="auto">
           <a
-            href="https://www.linkedin.com/in/ssmaheswar/"
+            href="https://www.linkedin.com/in/surya-smb/"
             target="_blank"
             rel="noopener noreferrer"
             className="d-flex align-items-center text-decoration-none"

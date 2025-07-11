@@ -2,7 +2,7 @@ import React from 'react';
 import { FaEye, FaDownload } from 'react-icons/fa';
 
 const Resume = () => {
-  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE_3YOE.pdf';
+  const resumePath = process.env.PUBLIC_URL + '/SuryaSaiMaheswarB_SE.pdf';
 
   return (
     <div className="text-center mt-5">
@@ -20,7 +20,7 @@ const Resume = () => {
 
         <a
           href={resumePath}
-          download="SuryaSaiMaheswarB_SE_3yoe.pdf"
+          download="SuryaSaiMaheswarB_SE.pdf"
           className="btn btn-outline-success"
         >
           <FaDownload className="me-2" />
