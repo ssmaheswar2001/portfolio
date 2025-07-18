@@ -30,7 +30,7 @@ const AboutMe = () => {
             Let’s connect for discussions, collaborations, or opportunities!
           </p>
           <p className="lead">
-            Email: <a href="mailto:suryasmb.2001@gmail.com">suryasmb.2001@gmail.com</a>
+            Email: <a href="mailto:ssmaheswar2001@gmail.com">ssmaheswar2001@gmail.com</a>
           </p>
 
           <a
@@ -48,7 +48,7 @@ const AboutMe = () => {
       <Row className="justify-content-center mt-2 g-2">
         <Col xs="auto">
           <a
-            href="https://www.linkedin.com/in/surya-smb/"
+            href="https://www.linkedin.com/in/maheswar-b-/"
             target="_blank"
             rel="noopener noreferrer"
             className="d-flex align-items-center text-decoration-none"
